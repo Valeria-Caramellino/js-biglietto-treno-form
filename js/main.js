@@ -32,7 +32,7 @@ x.addEventListener("click", function () {
     conto = `${prezzo}`;
   }
 
-  conto = `${prezzo.toFixed(2)} €`;
+  conto = `€ ${prezzo.toFixed(2)} `;
 
   console.log(nomeUtente.value);
 
